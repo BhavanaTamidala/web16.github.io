@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1><italic>Student Details</italic></h1>
+    <form action="depositphotos_150020428-stock-illustration-thank-you-thanks-expressing-gratitude.jpg">
+        <fieldset>
+            <legend>PERSONAL DETAILS</legend><br>
+        <label for="name">Name</label>
+        <input type="text" id = "name" name="name" required placeholder="Bhavana" pattern="[a-z,A-Z]{3,8}"><br><br>
+        <label for="phone no">Phone No</label>
+        <input type="text" id="phone no" name="phone no" required placeholder="1234567890" pattern="[6-9]{1}[0-9]{9}">
+        <label for="age">Age</label>
+        <input type="number" id = "age" name = "age" required placeholder="20"><br><br>
+        <label for="email">Email</label>
+        <input type="email" id = "email" name = "email" required placeholder="example@gmail.com" pattern="[]"><br><br>
+        <label for="DOB">Date Of Birth </label>
+        <input type="date" id = "DOB" name = "DOB" required><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>EDUCATION DETAILS</legend><br>
+        <label for="course"><b>COURSE</b></label><br>
+        <input type="radio" name="cr">
+        <label for="">B.Tech</label>
+        <input type="radio" name="cr">
+        <label for="">B.Sc</label>
+        <input type="radio" name="cr">
+        <label for="">M.Tech</label><br>
+        <br>
+        <label for=""><b>BRANCH</b></label>
+        <input list="Branch" id = "dept" name ="dept">
+        <datalist id="Branch">
+        <option >CSE</option>
+        <option >ECE</option>
+        <option >EEE</option>
+        <option >CIVIL</option>
+        <option >MECH</option>
+        </datalist><br><br>
+        <label for=""><b>SKILLS</b></label><br>
+        <input type="checkbox" id="c">
+        <label for="c">C</label><br>
+        <input type="checkbox" id ="c++">
+        <label for="c++">C++</label><br>
+        <input type="checkbox" id="java">
+        <label for="java">JAVA</label><br>
+        <input type="checkbox" id="python">
+        <label for="python">PYTHON</label><br>
+        <input type="checkbox" id="html">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id = "javascript">
+        <label for="jabascript">JAVASCRIPT</label><br><br>
+        <label for="yop"><b>YEAR OF PASSING</b></label>
+        <input list="yop" id="yog" name="yog">
+        <datalist id="yop">
+             <option>2016</option>
+             <option>2017</option>
+             <option>2018</option>
+             <option>2019</option>
+             <option>2020</option>
+             <option>2021</option>
+             <option>2022</option>
+             <option>2023</option>
+             <option>2024</option>
+        </datalist>
+    </fieldset><br><br>
+             <input type="submit">
+    </form>
+</body>
+</html>
